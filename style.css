@@ -1,0 +1,23 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(238,174,202);
+    background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(105,170,246,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+}
+.container {
+    margin: 50px auto;
+    width: 414px;
+    height: 736px;
+    background: #2e4057;
+    border-radius: 25px;
+    /* border: 1px solid #b8b7b7; */
+    -webkit-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+}
