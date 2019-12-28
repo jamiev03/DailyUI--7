@@ -6,6 +6,8 @@ html {
     background-position: center;
     height: 100vh;
 }
+/* #f4d35e - yellow*/
+/* #2e4057 - background color*/
 
 body {
     box-sizing: border-box;
@@ -15,9 +17,30 @@ body {
     width: 414px;
     height: 736px;
     background: #2e4057;
-    border-radius: 25px;
     /* border: 1px solid #b8b7b7; */
     -webkit-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     -moz-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+    border-top: 1px solid transparent;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 10px;
+    line-height: 0;
+    color: white;
+}
+.top-bar h5 {
+    margin: 0;
+}
+.top-bar i {
+    margin-left: 4px;
+}
+.top-bar span {
+    font-size: 15px;
+}
+.battery {
+    display: flex;
+    align-items: center;
 }
