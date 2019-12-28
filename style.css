@@ -62,6 +62,9 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+i {
+    cursor: pointer;
+}
 .yellow {
     color: #f4d35e;
 }
@@ -124,4 +127,12 @@ li {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+  footer {
+      margin-top: 220px;
+      font-size: 35px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 40px;
+      margin-right: 40px;
   }
